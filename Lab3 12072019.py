@@ -1,10 +1,3 @@
-#Author: Pannha Oudom Munint
-#Date:  12/07/2019
-#Tasks:  
-#T1
-
-     
-
 def greyScale():
    file1 = pickAFile()
    pic1 = makePicture(file1)

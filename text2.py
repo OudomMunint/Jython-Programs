@@ -1,3 +1,4 @@
+#adds text to image
 def text():
    newPic = makeEmptyPicture(400, 400, red)
    newPic2 = makeEmptyPicture(200, 200, white) 

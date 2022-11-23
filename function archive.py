@@ -26,7 +26,7 @@ def openShowDetails():
 #Breaks up character
 def partOfString(string):
    for letter in string:
-      print letter
+      print (letter)
 
 #Dom
 #24/6/2019
@@ -47,7 +47,7 @@ def showWords():
 
 def callTask1():
    x = showWords()
-   print x 
+   print (x)
    
 #T3: Give function parameter to print name
 

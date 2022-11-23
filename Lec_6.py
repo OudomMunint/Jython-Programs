@@ -31,12 +31,3 @@ def blendPic(pic1, pic2, startX, startY, proportion):
          newColor = makeColor(newRed, newGreen, newBlue)
          setColor(pix1, newColor)
    repaint(pic1)
-   
-##
-def testRequestStringIteration():
-   listNames =[]
-   numberOfNames = 3
-for number in range(1,numberOfNames+1):
-name = requestString("Please enter name " + str(number))
-if name <> None: listNames.append(name)
-   return listNames

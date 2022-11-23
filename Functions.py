@@ -1,13 +1,8 @@
-#Dom
-#5/7/2019
-#Task
 #T1: Pick open a picture file and open it
 #T2: Print characters in string using for loop
 
 
-#T1
-#This fuction will allow asue to pick a file
-#print the details
+#This fuction will allow a user to pick a file
 def openShowPicture():
    #select file
    file1 = pickAFile()
@@ -23,30 +18,22 @@ def openShowPicture():
    #X=250, Y=0 R:132 G:176 B:225
    #X=0, Y=250 R:102 G:127 B:44
    
-   
-#T2
-#This function accepts a string as an argument
-#Breaks up character
+
+#Breaks up character, use STR
 def partOfString(string):
    for letter in string:
-      print letter
+      print (letter)
       
-
-#T3
-#This Function sums 3 values and display result
+#Sums 3 values and display result
 def sumThree(a, b, c):
    x = a + b + c
    print("result =" + str(x))
-   
-   
-#T4
-#T3 but displays the values you are adding
+
 def sumThree2(a, b, c):
    x = a + b + c
    print(str(a)+ "+" +  str(b)+ "+" + str(c) +"=" + str(x))
    
-#T4
-#This Function devides the number by an input then displays the remainder
+#Devides the number by an input then displays the remainder
 def devideBy(top, bottom):
    x = top / bottom
    print (int(x))

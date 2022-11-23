@@ -1,5 +1,6 @@
-# Simon, lecture 9 demo
-# September 2012; demo of functions used in lecture 9
+# MainDev:Simon, L3 SWE
+# Dev:Oudom Munint, L1 SWE
+# September 2021; demo of functions
 
 def spliceSentence():
   # Make a new sentence or two from a highly specific existing recording.
@@ -228,4 +229,3 @@ def reduceSound():
          targetIndex = targetIndex + 1
    explore(newSound)
    print(str(getLength(newSound)))
-   

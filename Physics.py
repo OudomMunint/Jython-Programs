@@ -1,24 +1,16 @@
-#Author:Me
-#Date:2019/28/06
-#Task: Lab 1
-#T1: Shows a message  
-#T2: Show name by parameter
-#T3: Workout the escape velocity to exit the earths atmosphere
-#T4: Workout the time it takes to fall in seconds
+#Dev: Oudom munint
+#Date: 2020/28/06
+#Task: Workout the escape velocity to exit the earths atmosphere then Workout the time it takes to fall in seconds
 
-#T1
-#This task displays a message
-def helloWorld():
-   print("hello world")
+#Displays the results
+def printMsg():
+   print("Get(results)")
    
-   
-#T2
+
 #Call function with an argument
 def showName(yourName):
    print(yourName)
-   
 
-#T3
 #Values of G, M, R, V
 #uses these values to compute the escape velocity
 def escapeVelocity():
@@ -27,11 +19,9 @@ def escapeVelocity():
    R = 6371000
    V = (2 * G * M)/R
    result = sqrt(V)
-   print "Escape velocity:"
-   print result
-   
-   
-#T4
+   print ("Escape velocity:")
+   print (result)
+
 #Time it takes to land 
 #value of height per story and total height of building
 #Gravity = 9.81m/s
@@ -55,9 +45,6 @@ def timeToLand():
    print("Time ti fall (seconds):")
    print(timeToFall)
 
-
-
-#T5
 #Time it takes to land 
 #value of height per story and total height of building
 #Gravity = 9.81m/s
@@ -80,6 +67,4 @@ def timeToLandUserInput():
    
    # Shows the time to fall in seconds
    print("Time ti fall (seconds):")
-   print(timeToFall)
-  
-     
+   print(timeToFall) 

@@ -1,7 +1,4 @@
-#Author
-#Date: 20190715
-#Task:
-#T1: Draws a cross in the centre of the picture
+#Use: Draws a cross in the centre of the picture, replace cross with watermark
 
 def centrePlus():
       #Tells the user to pick a file
@@ -26,6 +23,3 @@ def centrePlus():
             setColor(pixel, cyan)
       #Repaints and show the picture      
       repaint(pic1)
-          
-      
-

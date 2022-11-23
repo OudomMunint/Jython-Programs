@@ -1,23 +1,12 @@
-#Author: Dom 
-#date: 22/07/2019
-#Task:
-#T1:getFile(): Get a file, make picture then return picture
-#T2:makeShape(Pic): Draw a rectangle with a colour that is selected by a user
-#Location 150,80,25,95
-#T3: Call task 1 and the task 2 and repaint picture and explore picture
-#T4: This calls makeShape(picture, startX, endX, startY, endY, colour)
+#Paints triangle on picture then explore
 
-#T1
-#This task Lets you pick a file and make the file into a picture
-#Then returns the picture
+#get file > make pic
 def getFile():
    #Pick a file and make the file into a picture then returns it
    file = pickAFile()
    pic = makePicture(file)
    return(pic)
-         
-#T2
-#This task draws a rectangle with a user selected color on the picture
+
 #The rectangle will start and end with the following coordinates: 25,80,150,95         
 def bigRectangle(pic):
    #Starting and ending coordinates
@@ -35,9 +24,7 @@ def bigRectangle(pic):
          setColor(pix, color)
    #Repaints the original picture      
    repaint(pic)
-   
-#T3
-#This task runs task 1 and task 2 in conjunction with only 1 function   
+    
 def runProgramme(pic):
    #Calling task 1
    task1 = getFile()
@@ -48,9 +35,6 @@ def runProgramme(pic):
    #Explore the picture
    explore(task1)
    
-   
-#T4
-#This is one way of doing task for.
 #Is longer but is better for user interaction   
 def makeShape2():
    #pick a file then make it a picture 
@@ -72,9 +56,8 @@ def makeShape2():
          setColor(pix, color)     
    repaint(pic)
    
-#This is another way of doing task 4
-#Shorter, more efficient but does not have a user interface
-#less desireable for user interaction   
+#Another way of doing it
+#Shorter, more efficient but does not have a user interface, less desireable for user interaction   
 def makeShape3(pic, startX, endX, startY, endY, colour):
    #Pick a file and make the file into a picture
    file = pickAFile()

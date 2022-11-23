@@ -54,5 +54,3 @@ def greyScale():
       
    repaint(pic1)
    explore(pic1)
-
-    

@@ -55,5 +55,3 @@ def callTask1():
 def printName(name):
    #change parameter to string
    print("your Name is: " + str(name))
-    
-   

@@ -1,6 +1,6 @@
-#Author: Dom
-#Date: 12/08/2019
-#Tasks:
+#Dev: Dom, L1 SWE
+#Date: 12/08/2020
+#Use: Pick the 2 audio files in repo
 
 
 def playSound():

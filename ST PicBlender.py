@@ -1,6 +1,6 @@
-#Author:Dom
-#Date:29/07/19
-#Task:
+#Dev:Dom, L1 SWE
+#Date:29/07/20
+# Picture blender, single thread
 
 def mirror(picture):
    pic = makePicture(pickAFile())

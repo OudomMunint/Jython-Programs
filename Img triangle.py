@@ -1,9 +1,4 @@
-#Dom
-#Date: 19/07/2019
-#Practice Practical
-#T1: This function will pick a file then make a picture
-#T2: Colors a rectangle red in the picture
-#T3: Runs T2,T3 on a picture
+#Pick a file then make a picture then colors a rectangle red in the picture
 
 def getFile():
    file = pickAFile()
@@ -22,6 +17,3 @@ def bigRectangle():
             pixel = getPixel(pic2, x, y)
             setColor(pixel, red)
    repaint(pic2)
-   
-  
-  

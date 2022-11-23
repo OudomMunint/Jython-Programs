@@ -3,7 +3,7 @@ def text():
    newPic = makeEmptyPicture(400, 400, red)
    newPic2 = makeEmptyPicture(200, 200, white) 
    textColor = pickAColor()
-   addText(newPic2,90,90,"Asim", textColor)
+   addText(newPic2,90,90,"Dom", textColor)
    xstart = 150
    ystart = 50
    

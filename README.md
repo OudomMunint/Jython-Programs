@@ -5,3 +5,5 @@ A collection of Jython programs used to improve my daily development productivit
 - `Python 3.8.0+`
 - `Java 1.5.0+`
 - `JES IDE`
+# Maintenance
+![maintenance-status](https://img.shields.io/badge/maintenance-as--is-yellow.svg) ![maintenance-status](https://img.shields.io/badge/maintenance-deprecated-red.svg)
